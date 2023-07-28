@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Teplates is Working</title>
+</head>
+<body>
+<h1>Welcome to the text analyzer. Enter your text below</h1>
+<form action='/analyze' method='get'>
+    <textarea name='text' style='margin: 0px; width: 721px; height: 92px;'></textarea><br>
+    <input type="checkbox" name="removepunc">Remove Punctuations<br>
+    <input type="checkbox" name="fullcaps">UPPERCASE<br>
+    <input type="checkbox" name="lowercase">lowercase<br>
+    <input type="checkbox" name="newlineremove">Remove Newline<br>
+    <input type="checkbox" name="spaceremover">Remove Space<br>
+    <input type="checkbox" name="charcount">Character Count<br>
+    <button type='submit'> Analyze Text</button>
+</form>
+</body>
+</html>
